@@ -1,0 +1,36 @@
+# ---- cocos code ide ----
+.buildpath
+.cocos-project.json
+.project
+.settings/
+runtime
+
+# vim backup file
+*.swp
+
+# ---- localized tools ----
+android_env.bat
+
+# ---- CocoStudio ----
+ccs/GameUi/Backup
+ccs/GameUi/Export
+ccs/GameUi/CocoStudio/assets/publish
+ccs/GameUi/CocoStudio/ccsprojs/*/Backup
+ccs/GameUi/CocoStudio/ccsprojs/FileInfo.Export
+
+# ---- frameworks ----
+#frameworks/cocos2d-x
+
+frameworks/runtime-src/proj.android/.settings
+frameworks/runtime-src/proj.android/assets
+frameworks/runtime-src/proj.android/bin
+frameworks/runtime-src/proj.android/gen
+frameworks/runtime-src/proj.android/libs
+frameworks/runtime-src/proj.android/obj
+frameworks/runtime-src/proj.android/local.properties
+
+frameworks/runtime-src/proj.win32
+frameworks/runtime-src/proj.ios_mac
+
+frameworks/runtime-src/google-play-services_lib
+frameworks/runtime-src/facebook
